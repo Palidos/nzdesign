@@ -194,6 +194,14 @@ main,
   .nav-menu>a {
     display: none;
   }
+
+  .mail {
+    font-size: calc(1.375rem);
+  }
+
+  .contacts {
+    grid-gap: 0px;
+  }
 }
 
 @media screen and (max-width: 375px) {
