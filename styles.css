@@ -189,7 +189,7 @@ main,
     font-size: 1.45rem;
   }
 
-  .img-fluid {
+  .avatar {
     height: 60vh !important;
   }
 }
@@ -201,7 +201,7 @@ main,
     font-size: 1.1rem;
   }
 
-  .img-fluid {
+  .avatar {
     height: 45vh !important;
   }
 
