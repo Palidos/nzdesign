@@ -76,6 +76,14 @@ img.contacts__left-column {
   place-items: center;
 }
 
+figure {
+  display: grid;
+}
+
+.pic1 {
+  justify-self: center;
+}
+
 .sidebar {
   width: 280px;
   position: fixed;
@@ -165,9 +173,19 @@ main,
   grid-gap: 1rem;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1500px) {
+  .pic1 {
+    height: 35vw !important;
+  }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1100px) {
   .info {
     font-size: calc(1.325rem + .5vw);
+  }
+
+  .pic1 {
+    height: 40vw !important;
   }
 }
 
